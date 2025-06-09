@@ -1,0 +1,27 @@
+1.プロジェクトの作成
+Javaのプロジェクトを作成します。
+
+（1）Shift + Ctrl + p（Macの場合は Shift + Command + p）を押してコマンドパレットを開きます。
+
+（2）「java c」と入力し、表示された候補から「Java: Create Java Project…」を選択します。
+
+
+
+（3）以下のとおり選択します。
+
+Select the project type：No build tools
+
+フォルダの選択：workspaceフォルダを選択
+
+Input a Java project name：helloWorld
+
+（4）プロジェクトが作成され、VS Codeの新しいウィンドウで helloWorld プロジェクトが開かれます。
+
+
+
+2.ソースコードの記述
+ソースコードはjavaファイルに記述します。今回は src フォルダにある App.java をそのまま使います。
+
+3.ソースコードの実行
+App.java を開いた状態で、F5 または「実行」メニューから「デバッグの開始」でソースコードを実行します。結果はVS Codeのターミナルに表示されます。以下のように Hello, World! と表示されることを確認します。
+
