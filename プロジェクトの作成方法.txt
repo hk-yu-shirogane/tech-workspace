@@ -25,3 +25,20 @@ Input a Java project name：helloWorld
 3.ソースコードの実行
 App.java を開いた状態で、F5 または「実行」メニューから「デバッグの開始」でソースコードを実行します。結果はVS Codeのターミナルに表示されます。以下のように Hello, World! と表示されることを確認します。
 
+
+【spring bootの場合】
+（1）Shift + Ctrl + p（Macの場合は Shift + Command + p）を押してコマンドパレットを開きます。
+
+（2）「java c」と入力し、表示された候補から「Java: Create Java Project…」を選択します。
+
+（3）以下のとおり選択します。
+
+Select the project type：Spring Boot→Maven
+Specify Spring Boot version：3.4.4 ※ 3.4.x の最新
+Specify project language：Java
+Group Id：com.example
+Artifact Id：demo
+packaging type：Jar
+Java version：21
+dependencies：Spring Web、Spring Boot DevTools
+フォルダの選択：workspace フォルダを選択
