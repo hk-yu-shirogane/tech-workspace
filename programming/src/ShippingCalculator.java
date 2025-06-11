@@ -9,7 +9,7 @@ public class ShippingCalculator {
 
         // [B]: 「税込価格」を計算する（消費税率は10%）
         double taxRate = 0.10;
-        double taxIncludedPrice = taxExcludedPrice * (1+taxRate);
+        double taxIncludedPrice = taxExcludedPrice * (1 + taxRate);
 
         // [C]、[D]: 送料の計算（2000円以上かどうかを判定して分岐する）
         int shippingCost;
